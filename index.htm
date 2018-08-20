@@ -24,8 +24,11 @@
   <section id="main">
     <img src="assets/images/piano_hub.PNG" alt="Piano Hub" />
   </section>
-  <!-- Products Section -->
+  <!-- Store Section -->
   <section id="pricing">
+    <div id="store">
+      <h3>Store</h3>
+    </div>
     <div id="grand">
       <div class="piano-name">
         Grand Piano  
@@ -44,14 +47,27 @@
   </section>
   <!-- Contact Us -->
   <section id="contact">
-    
+    <div id="contact-us">
+      <h2>Contact Us</h2>
+    </div>
+    <form action="" method="POST" id="form-body">
+      <label for="name">Full Name: </label>
+      <input type="text" name="name" placeholder="Enter your Full Name"/>
+      <label for="email">Email: </label>
+      <input type="email" name="email" placeholder="Enter your email address" />
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" placeholder="Enter your message here..."></textarea>
+      <button type="submit" id="button">Send</button>
+    </form>
   </section>
   <section id="how-it-works">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/aT8G_IfRH2w?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </section>
   <!-- Newsletter -->
   <section id="subscription">
-    <h3>Subscribe to our daily newsletters</h3>
+    <div id="newsletter">
+        <h3>Subscribe to our daily newsletters</h3>
+    </div>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input type="email" id="email" name="email" placeholder="Enter your email" required/>
       <input type="submit" id="submit" value="Subscribe" />
