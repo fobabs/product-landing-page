@@ -11,45 +11,72 @@
   <!-- Header -->
   <header id="header">
     <div id="logo">
-      <img id="img-logo" src="assets/images/pianoX.png" alt="Piano X" />
+      <img id="header-img" src="assets/images/pianoX.png" alt="Piano X" />
     </div>
     <nav id="nav-bar">
       <ul>
-        <li><a class="nav-link" href="#features">Features</a></li>
         <li><a class="nav-link" href="#pricing">Pricing</a></li>
         <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#contact">Contact Us</a></li>
       </ul>
     </nav>
   </header>
   <section id="main">
-    <img src="assets/images/piano_hub.PNG" alt="Piano Hub" />
+    <img src="assets/images/dominik-scythe-148662-unsplash.jpg" alt="Piano Hub" />
   </section>
-  <section id="features">
-
+  <!-- Products Showcase Sections -->
+  <section id="products-showcase">
+    <div class="piano-type">
+      <h3>Grand Pianos</h3>
+    </div>
+    <div class="piano-products">
+      <img src="" alt="" />
+      <div class="piano-brand">
+        <h5>Yamaha Grand Piano <span>#1,240,000</span></h5>
+      </div>
+    </div>
+    <div class="piano-type">
+      <h3>Grand Pianos</h3>
+    </div>
+    <div class="piano-products">
+      <img src="" alt="" />
+      <div class="piano-brand">
+        <h5>Yamaha Grand Piano <span>#1,240,000</span></h5>
+      </div>
+    </div>
+    <div class="piano-type">
+      <h3>Grand Pianos</h3>
+    </div>
+    <div class="piano-products">
+      <img src="" alt="" />
+      <div class="piano-brand">
+        <h5>Yamaha Grand Piano <span>#1,240,000</span></h5>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Us -->
+  <section id="contact">
+    <div id="contact-us">
+      <h2>Contact Us</h2>
+    </div>
+    <form action="" method="POST" id="form-body">
+      <label for="name">Full Name: </label>
+      <input type="text" name="name" placeholder="Enter your Full Name"/>
+      <label for="email">Email: </label>
+      <input type="email" name="email" placeholder="Enter your email address" />
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" placeholder="Enter your message here..."></textarea>
+      <button type="submit" id="button">Send</button>
+    </form>
   </section>
   <section id="how-it-works">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/aT8G_IfRH2w?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </section>
-  <section id="pricing">
-    <div id="grand">
-      <div class="piano-name">
-        Grand Piano  
-      </div>
-    </div>
-    <div id="upright">
-      <div class="piano-name">
-        Upright Piano
-      </div>
-    </div>
-    <div id="electric">
-      <div class="piano-name">
-        Electric Piano
-      </div>
-    </div>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/aT8G_IfRH2w?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </section>
   <!-- Newsletter -->
   <section id="subscription">
-    <h3>Subscribe to our weekly newsletter</h3>
+    <div id="newsletter">
+        <h3>Subscribe to our daily newsletters</h3>
+    </div>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input type="email" id="email" name="email" placeholder="Enter your email" required/>
       <input type="submit" id="submit" value="Subscribe" />
@@ -63,5 +90,6 @@
     </ul>
     <span>&copy; Copyright 2018, Piano X</span>
   </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
