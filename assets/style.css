@@ -12,6 +12,7 @@ body {
 header {
   background-color: rgb(255, 255, 255);
   position: fixed; 
+  z-index: 99;
   top: 0;
   min-height: 75px;
   display: flex;
@@ -57,16 +58,14 @@ a {
 }
 /* Products Showcase Section */
 #products-showcase {
-  margin-top: 60px;
+  margin: 60px 0;
 }
 .piano-type {
   display: flex;
   flex-direction: column;
   font-size: 1.7rem;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #1E007F;
-  text-decoration-style: double; 
+  text-decoration: underline double #1E007F; 
   margin: 20px;
 }
 .piano-section {
@@ -75,6 +74,7 @@ a {
   justify-content: center;
 }
 figure {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,10 +82,37 @@ figure {
   margin: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+figure:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
 figure img {
   display: flex;
   width: 100%;
   height: 100%;
+}
+figcaption {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: #444;
+  opacity: 0.8;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  padding: 5px;
+  color: #fff;
+}
+figcaption h4 {
+  width: 60vw;
+}
+figcaption span {
+  width: 10vw;
+  float: right;
+  color: #fff;
+  font-weight: bold;
 }
 /* How it Works */
 #how-it-works {
