@@ -15,7 +15,7 @@
     </div>
     <nav id="nav-bar">
       <ul>
-        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="nav-link" href="#products-showcase">Pricing</a></li>
         <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
         <li><a class="nav-link" href="#contact">Contact Us</a></li>
       </ul>
@@ -29,57 +29,124 @@
     <div class="piano-type">
       <h3>Grand Pianos</h3>
     </div>
-    <div class="piano-products">
-      <img src="" alt="" />
-      <div class="piano-brand">
-        <h5>Yamaha Grand Piano <span>#1,240,000</span></h5>
-      </div>
-    </div>
+    <section class="piano-section">
+      <figure>
+        <img src="assets/images/grand_piano.jpg" alt="Knabe WG50 Grand Piano" />
+        <figcaption>
+          <h4>Brand New Knabe WG50 Ebony Satin 5' Baby Grand</h4>
+          <span>$8,800</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/grand_piano_2.jpg" alt="Yamaha C2 Conservatory Grand" />
+        <figcaption>
+          <h4>Yamaha C2 Conservatory Grand</h4>
+          <span>$10,995</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/grand_piano_3.jpg" alt="Beautiful Baldwin R Grand Piano" />
+        <figcaption>
+          <h4>Beautiful Baldwin R Grand Piano</h4>
+          <span>$6,500</span>
+        </figcaption>
+      </figure>
+    </section>
     <div class="piano-type">
-      <h3>Grand Pianos</h3>
+      <h3>Upright Pianos</h3>
     </div>
-    <div class="piano-products">
-      <img src="" alt="" />
-      <div class="piano-brand">
-        <h5>Yamaha Grand Piano <span>#1,240,000</span></h5>
-      </div>
-    </div>
+    <section class="piano-section">
+      <figure>
+        <img src="assets/images/upright_piano.png" alt="Wurlitzer Hi-Gloss Mahogany Upright" />
+        <figcaption>
+          <h4>Wurlitzer Hi-Gloss Mahogany Upright</h4>
+          <span>$5,000</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/upright_piano_2.jpg" alt="Yamaha U1 Studio Upright" />
+        <figcaption>
+          <h4>Yamaha U1 Studio Upright</h4>
+          <span>$4,250</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/upright_piano_3.jpg" alt="Brand New Baldwin B342 Console" />
+        <figcaption>
+          <h4>Brand New Baldwin B342 Console</h4>
+          <span>$9,895</span>
+        </figcaption>
+      </figure>
+    </section>
     <div class="piano-type">
-      <h3>Grand Pianos</h3>
+      <h3>Digital Pianos</h3>
     </div>
-    <div class="piano-products">
-      <img src="" alt="" />
-      <div class="piano-brand">
-        <h5>Yamaha Grand Piano <span>#1,240,000</span></h5>
-      </div>
-    </div>
+    <section class="piano-section">
+      <figure>
+        <img src="assets/images/digital_piano.jpg" alt="Steinway 1098 Upright" />
+        <figcaption>
+          <h4>Steinway 1098 Digital- Fully Restored- Mahogany</h4>
+          <span>$8,450</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/digital_piano_2.jpg" alt="Queen Anne Baldwin Console" />
+        <figcaption>
+          <h4>Queen Anne Baldwin Console</h4>
+          <span>$1,750</span>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="assets/images/digital_piano_3.jpg" alt="Clavinova Digital Baby Grand" />
+        <figcaption>
+          <h4>Clavinova Digital Baby Grand</h4>
+          <span>$2,750</span>
+        </figcaption>   
+      </figure>
+    </section>
+  </section>
+  <!-- How it Works -->
+  <section id="how-it-works">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/aT8G_IfRH2w?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </section>
   <!-- Contact Us -->
   <section id="contact">
     <div id="contact-us">
       <h2>Contact Us</h2>
     </div>
-    <form action="" method="POST" id="form-body">
-      <label for="name">Full Name: </label>
-      <input type="text" name="name" placeholder="Enter your Full Name"/>
-      <label for="email">Email: </label>
-      <input type="email" name="email" placeholder="Enter your email address" />
-      <label for="message">Message: </label>
-      <textarea id="message" name="message" placeholder="Enter your message here..."></textarea>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+      <div class="form-label">
+        <label for="name">Full Name: </label>
+      </div>
+      <div class="form-input">
+        <input type="text" name="name" id="name" class="input" placeholder="Enter your Full Name"/>
+      </div>
+      <br />
+      <div class="form-label">
+        <label for="email-2">Email: </label>
+      </div>
+      <div class="form-input">
+        <input type="email" name="email-2" id="email-2" class="input" placeholder="Enter your email address" />
+      </div>
+      <br />
+      <div class="form-label">
+        <label for="message">Message: </label>
+      </div>
+      <div class="form-input">
+        <textarea id="message" name="message" placeholder="Enter your message here..."></textarea>
+      </div>
+      <br />
       <button type="submit" id="button">Send</button>
     </form>
-  </section>
-  <section id="how-it-works">
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/aT8G_IfRH2w?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </section>
   <!-- Newsletter -->
   <section id="subscription">
     <div id="newsletter">
-        <h3>Subscribe to our daily newsletters</h3>
+      <h3>Subscribe to our daily newsletters</h3>
     </div>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <form action="https://www.freecodecamp.com/email-submit">
       <input type="email" id="email" name="email" placeholder="Enter your email" required/>
-      <input type="submit" id="submit" value="Subscribe" />
+      <button type="submit" id="submit">Subscribe</button>
     </form>
   </section>
   <!-- Footer -->
